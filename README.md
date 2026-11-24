@@ -12,10 +12,11 @@
 
 | | الرابط |
 |---|---|
-| صفحة المشروع | `https://<اسم-المستخدم>.github.io/sahil/` |
-| تجربة الواجهة (دون الجهاز) | `https://<اسم-المستخدم>.github.io/sahil/demo/` |
-| النموذج ثلاثي الأبعاد | `https://<اسم-المستخدم>.github.io/sahil/model3d/` |
-| الفيديو التوضيحي | `media/Sahil_Demo_Video.mp4` |
+| صفحة المشروع | [layan20050.github.io/sahil](https://layan20050.github.io/sahil/) |
+| تجربة الواجهة (دون الجهاز) | [layan20050.github.io/sahil/demo](https://layan20050.github.io/sahil/demo/) |
+| النموذج ثلاثي الأبعاد | [layan20050.github.io/sahil/model3d](https://layan20050.github.io/sahil/model3d/) |
+| المستودع | [github.com/layan20050/sahil](https://github.com/layan20050/sahil) |
+| الفيديو التوضيحي | [Sahil_Demo_Video.mp4](media/Sahil_Demo_Video.mp4) |
 
 ---
 

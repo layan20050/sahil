@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>صهيل — المنظومة الذكية للرعاية الصحية والتموين الآلي للخيول</title>
+<link rel="icon" href="media/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--dark:#17120D;--light:#F7F2E8;--gold:#C9A256;--gold2:#E2BF6F;--ink:#2A2118;--body:#4A3F33;--line:#E4D7BF;--navy:#1F3F68}
+*{box-sizing:border-box}
+body{margin:0;font-family:Almarai,Tahoma,sans-serif;background:var(--light);color:var(--ink);line-height:1.7}
+header{background:radial-gradient(ellipse 80% 70% at 50% 40%,#2a2016,#16110c 65%,#0b0907);color:var(--light);text-align:center;padding:64px 20px 56px}
+header img{width:110px;height:auto}
+header h1{margin:8px 0 0;font-size:64px;color:var(--gold2);line-height:1.2}
+header p{margin:8px auto 0;max-width:720px;font-size:20px;color:#E8DDC8}
+header .meta{margin-top:22px;font-size:15px;color:#B9AC93}
+main{max-width:1040px;margin:0 auto;padding:40px 20px 64px}
+h2{font-size:28px;margin:40px 0 14px}
+.btns{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:-70px}
+.btn{display:block;text-decoration:none;background:#FFFCF5;border:1.5px solid var(--line);border-radius:20px;padding:20px 22px;color:var(--ink);box-shadow:0 10px 28px rgba(0,0,0,.08)}
+.btn b{display:block;font-size:20px}.btn span{font-size:15px;color:var(--body)}
+.btn.pri{background:var(--navy);border-color:var(--navy);color:#fff}.btn.pri span{color:#D9E3F0}
+video{width:100%;border-radius:20px;background:#000;display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.card{background:#FFFCF5;border:1.5px solid var(--line);border-radius:18px;padding:18px 20px}
+.card b{display:block;font-size:18px;margin-bottom:4px}.card p{margin:0;font-size:15px;color:var(--body)}
+.files a{color:var(--navy);font-weight:700}
+.files li{margin:6px 0}
+.note{font-size:14px;color:#6B5E4E;background:#EFE6D6;border-radius:14px;padding:14px 18px;margin-top:28px}
+footer{text-align:center;font-size:14px;color:#6B5E4E;padding:24px}
+code{background:#EFE6D6;padding:1px 6px;border-radius:6px;direction:ltr;display:inline-block}
+</style>
+</head>
+<body>
+<header>
+  <img src="media/logo.png" alt="شعار صهيل">
+  <h1>صهيل</h1>
+  <p>منظومة ذكية تغذّي الخيل وتسقيه آلياً، وتكتشف بالذكاء الاصطناعي أي تغيّر في أكله وشربه قبل ظهور أعراض المرض.</p>
+  <div class="meta">ليان خلف الحربي · ربى عبدالله الشهري — بإشراف المهندسة منار الصواط · المهندسة عبير الحليفي<br>الكلية التقنية الرقمية للبنات بجدة · هاكاثون رُبّان 2026</div>
+</header>
+<main>
+  <div class="btns">
+    <a class="btn pri" href="demo/"><b>جرّب واجهة الويب</b><span>نسخة تجريبية تعمل دون الجهاز · الدخول: admin / 1234</span></a>
+    <a class="btn" href="model3d/"><b>النموذج ثلاثي الأبعاد</b><span>شرح تفاعلي لكل قطعة ومحاكاة المضخة</span></a>
+    <a class="btn" href="#video"><b>الفيديو التوضيحي</b><span>تشغيل الجهاز الفعلي والواجهة</span></a>
+  </div>
+
+  <h2 id="video">الفيديو التوضيحي</h2>
+  <video src="media/Sahil_Demo_Video.mp4" controls preload="metadata" playsinline></video>
+
+  <h2>طريقة تجربة الواجهة</h2>
+  <div class="cards">
+    <div class="card"><b>1. الدخول</b><p>اسم المستخدم <code>admin</code> وكلمة المرور <code>1234</code>.</p></div>
+    <div class="card"><b>2. لوحة التحكم</b><p>مستوى العلف والماء والعد التنازلي للوجبة، وزر «تقديم وجبة الآن».</p></div>
+    <div class="card"><b>3. الملف الصحي</b><p>اضغط بطاقة الخيل «ريم» لعرض بيانات 30 يوماً والرسم البياني.</p></div>
+    <div class="card"><b>4. الذكاء الاصطناعي</b><p>في بطاقة التحليل اضغط «محاكاة حالة مبكرة» ليظهر «تنبيه مبكر» وسببه.</p></div>
+  </div>
+
+  <h2>ملفات المشروع</h2>
+  <ul class="files">
+    <li><a href="docs/Sahil_Project_Document.pdf">التقرير النهائي (PDF)</a></li>
+    <li><a href="docs/Sahil_Project_Summary.pdf">ملخص المشروع (PDF)</a></li>
+    <li><a href="data/Sahil_AI_Data_and_Results.xlsx">البيانات ونتائج الذكاء الاصطناعي (Excel)</a></li>
+    <li><a href="code/arduino/sahil_v3_2/sahil_v3_2.ino">كود المتحكم ESP32 (Arduino)</a></li>
+    <li><a href="code/ai/sahil_ai_isolation_forest.js">كود نموذج Isolation Forest (JavaScript)</a></li>
+    <li><a href="code/web/sahil_interface_source.html">مصدر واجهة الويب (HTML)</a></li>
+    <li>تعليمات التشغيل الكاملة في ملف <b>README</b> داخل المستودع.</li>
+  </ul>
+
+  <p class="note">بيانات الخيل «ريم» في الواجهة التجريبية بيانات محاكاة لثلاثين يوماً، مبنية على قيم مرجعية لاختبار النظام قبل تركيبه على خيل حقيقي.</p>
+</main>
+<footer>صهيل — رعاية لا تغفل: وجبة في وقتها، وماء صافٍ دائماً، وخيلٌ بخير.</footer>
+</body>
+</html>

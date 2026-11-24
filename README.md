@@ -18,6 +18,7 @@
 | المستودع | [github.com/layan20050/sahil](https://github.com/layan20050/sahil) |
 | الفيديو التوضيحي | [Sahil_Demo_Video.mp4](media/Sahil_Demo_Video.mp4) |
 | العرض التقديمي | [Sahil_Presentation.pdf](docs/Sahil_Presentation.pdf.pdf) |
+| الصور ولقطات الشاشة | [images](images/) |
 
 ---
 

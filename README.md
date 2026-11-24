@@ -17,6 +17,7 @@
 | النموذج ثلاثي الأبعاد | [layan20050.github.io/sahil/model3d](https://layan20050.github.io/sahil/model3d/) |
 | المستودع | [github.com/layan20050/sahil](https://github.com/layan20050/sahil) |
 | الفيديو التوضيحي | [Sahil_Demo_Video.mp4](media/Sahil_Demo_Video.mp4) |
+| العرض التقديمي | [Sahil_Presentation.pdf](docs/Sahil_Presentation.pdf.pdf) |
 
 ---
 
